@@ -28,3 +28,8 @@ Reboot
 ```shell
 sudo reboot
 ```
+
+## Scripts
+
+Content of the repository :
+ - **Update Gamelist** : Perform a `git pull` in `~/RetroPie/roms/` if it's a repository.

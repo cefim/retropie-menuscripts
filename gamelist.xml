@@ -78,4 +78,10 @@
     <desc>Connect to or disconnect from a WiFi network and configure WiFi settings.</desc>
     <image>/home/pi/RetroPie/retropiemenu/icons/wifi.png</image>
   </game>
+  <game>
+    <path>./update_gamelist.sh</path>
+    <name>Update Gamelist</name>
+    <desc>Automatically download the new games of the gamelist. Requires an internet connection.</desc>
+    <image>/home/pi/RetroPie/retropiemenu/icons/update_gamelist.png</image>
+  </game>
 </gameList>
