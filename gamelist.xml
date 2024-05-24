@@ -84,4 +84,10 @@
     <desc>Automatically download the new games of the gamelist. Requires an internet connection.</desc>
     <image>/home/pi/RetroPie/retropiemenu/icons/update_gamelist.png</image>
   </game>
+  <game>
+    <path>./lock_unlock.sh</path>
+    <name>Lock/Unlock</name>
+    <desc>Show or hide dangerous menus.</desc>
+    <image>/home/pi/RetroPie/retropiemenu/icons/lock.png</image>
+  </game>
 </gameList>
