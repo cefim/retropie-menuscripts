@@ -1,9 +1,11 @@
 #!/bin/bash
 
+source ./config.sh_lib
+
 check_update_romlist() {
-	cd ~/RetroPie/roms/
+	cd $romdir
 	git fetch
-	
+
     UPSTREAM=${1:-'@{u}'}
 	LOCAL=$(git rev-parse @)
 	REMOTE=$(git rev-parse "$UPSTREAM")
@@ -28,8 +30,7 @@ check_update_romlist() {
 	fi
 }
 
-wget -q --spider https://github.com/
-
+isConnected
 if [ $? -eq 0 ]; then
 	check_update_romlist
 else

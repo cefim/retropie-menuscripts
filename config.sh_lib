@@ -1,0 +1,13 @@
+#!/bin/bash
+
+rootdir="/opt/retropie"
+rpdir="$HOME/RetroPie"
+rpsetupdir="$HOME/RetroPie-Setup"
+romdir="$rpdir/roms"
+
+__backtitle="retropie.org.uk - RetroPie Setup. Installation folder: $rootdir for user $USER"
+
+source "$rpsetupdir/scriptmodules/system.sh"
+source "$rpsetupdir/scriptmodules/helpers.sh"
+source "$rpsetupdir/scriptmodules/inifuncs.sh"
+source "$rpsetupdir/scriptmodules/packages.sh"
