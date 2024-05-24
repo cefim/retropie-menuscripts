@@ -16,7 +16,7 @@ mv /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml /o
 
 Clone the repository
 ```shell
-git clone https://github.com/born-to-geek/retropie-menuscripts retropiemenu
+git clone https://github.com/cefim/retropie-menuscripts retropiemenu
 ```
 
 Link the new gamelist
